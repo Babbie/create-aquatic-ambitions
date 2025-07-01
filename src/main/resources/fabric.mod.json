@@ -3,9 +3,10 @@
   "id": "create_aquatic_ambitions",
   "version": "${version}",
   "name": "Create Aquatic Ambitions",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Create Mod Addon that adds new, unique bulk processing along with fun recipes.",
   "authors": [
-    "Me!"
+    "Davi Oliva",
+    "Bab (port)"
   ],
   "contact": {
     "sources": "https://github.com/davioliva16/create-aquatic-ambitions"
@@ -19,6 +20,9 @@
     ],
     "client": [
       "net.davio.create_aquatic_ambitions.CreateAquaticAmbitionsClient"
+    ],
+    "rei_client": [
+      "net.davio.create_aquatic_ambitions.compat.rei.CCAREI"
     ],
     "jei_mod_plugin": [
       "net.davio.create_aquatic_ambitions.compat.jei.CCAJEI"
